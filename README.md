@@ -9,5 +9,6 @@ Handwriting recognition is one of the compelling research works going on because
 - PRIYANKA S  
 - VARSHA K
 - SWETHA S
+- RESHMA S
 - DEVI K
 - ANU JULIET A
