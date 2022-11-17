@@ -1,0 +1,410 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>lenovo</Author>
+  <LastAuthor>lenovo</LastAuthor>
+  <Created>2022-11-16T23:37:07Z</Created>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7755</WindowHeight>
+  <WindowWidth>20490</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Top"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s184">
+   <Alignment ss:Vertical="Top"/>
+   <Borders/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="8"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s185">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="8"/>
+  </Style>
+  <Style ss:ID="s186">
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="8"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s187">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="8"/>
+  </Style>
+  <Style ss:ID="s209">
+   <Alignment ss:Vertical="Top"/>
+   <Borders/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="8" ss:Bold="1"/>
+   <Interior ss:Color="#BDD7EE" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="page 1">
+  <Table ss:ExpandedColumnCount="11" ss:ExpandedRowCount="24" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="42.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="44.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="42"/>
+   <Column ss:AutoFitWidth="0" ss:Width="123.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="138.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="60"/>
+   <Column ss:AutoFitWidth="0" ss:Width="119.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="101.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="27"/>
+   <Column ss:AutoFitWidth="0" ss:Width="42.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="53.25"/>
+   <Row>
+    <Cell ss:StyleID="s209"><Data ss:Type="String">Test case ID</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="String">Feature Type</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="String">Component</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="String"> Test Scenario</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="String">Steps To Execute</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="String">Test Data</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="String">Expected Result</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="String">Actual Result</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="String">Status</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="String">BUG ID</Data></Cell>
+    <Cell ss:StyleID="s209"><Data ss:Type="String">Executed By</Data></Cell>
+   </Row>
+   <Row ss:Height="33.75">
+    <Cell ss:StyleID="s184"><Data ss:Type="String">HP_TC_001</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">UI</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Home Page</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Verify UI elements in the Home Page</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">1) Open the page 2) Check if all the UI elements are  &#10;displayed</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">127.0.0.1:5000</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">The Home page must be displayed  &#10;properly</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Working as expected</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">PASS</Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s187"><Data ss:Type="String">Priyanka S  Varsha K   Swetha S</Data></Cell>
+   </Row>
+   <Row ss:Height="67.5">
+    <Cell ss:StyleID="s184"><Data ss:Type="String">HP_TC_002</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">UI</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Home Page</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">Check if the UI elements are displayed  &#10;properly in different screen sizes</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">1) Open the page in a specific device 2) Check if all the UI elements are  displayed properly 3) Repeat the above steps with different  &#10;device sizes</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">&#45;- Screen Sizes &#45;- 2560 x 1801 1440 x 970 1024 x 840 768 x 630 &#10;320 x 630</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">The Home page must be displayed  &#10;properly in all sizes</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">The UI is not displayed properly  in screen size 2560 x 1801 and  &#10;768 x 630</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">FAIL</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">BUG_HP_001</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">Reshma S       Anu Juliet A  Devi  K</Data></Cell>
+   </Row>
+   <Row ss:Height="33.75">
+    <Cell ss:StyleID="s184"><Data ss:Type="String">HP_TC_003</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Functional</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Home Page</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Check if user can upload their file</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">1) Open the page 2) Click on select button &#10;3) Select the input image</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Sample 1.png</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">The input image should be uploaded to  &#10;the application successfully</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Working as expected</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">PASS</Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">Priyanka S  Varsha K   Swetha S</Data></Cell>
+   </Row>
+   <Row ss:Height="33.75">
+    <Cell ss:StyleID="s184"><Data ss:Type="String">HP_TC_004</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Functional</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Home Page</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">Check if user cannot upload  &#10;unsupported files</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">1) Open the page 2) Click on select button &#10;3) Select a random input file</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">installer.exe</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">The application should not allow user to  &#10;select a non image file</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">User is able to upload any file</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">FAIL</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">BUG_HP_002</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">Reshma S       Anu Juliet A  Devi  K</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">1) Open the page</Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="33.75">
+    <Cell ss:StyleID="s184"><Data ss:Type="String">HP_TC_005</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Functional</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Home Page</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">Check if the page redirects to the result  &#10;page once the input is given</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">2) Click on select button &#10;3) Select the input image</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Sample 1.png</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">The page should redirect to the results  &#10;page</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Working as expected</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">PASS</Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">Reshma S        Anu Juliet A  Devi  K</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">4) Check if the page redirects</Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="33.75">
+    <Cell ss:StyleID="s184"><Data ss:Type="String">BE_TC_001</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Functional</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Backend</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">Check if all the routes are working  &#10;properly</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">1) Go to Home Page 2) Upload the input image &#10;3) Check the reults page</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Sample 1.png</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">All the routes should properly work</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Working as expected</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">PASS</Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">Priyanka S  Varsha K   Swetha S</Data></Cell>
+   </Row>
+   <Row ss:Height="56.25">
+    <Cell ss:StyleID="s184"><Data ss:Type="String">M_TC_001</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Functional</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Model</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">Check if the model can handle various  &#10;image sizes</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">1) Open the page in a specific device 2) Upload the input image 3) Repeat the above steps with different  &#10;input image</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">Sample 1.png Sample 1 XS.png &#10;Sample 1 XL.png</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">The model should rescale the image and  &#10;predict the results</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Working as expected</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">PASS</Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">Reshma S       Anu Juliet A  Devi  K</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">1) Open the page</Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="33.75">
+    <Cell ss:StyleID="s184"><Data ss:Type="String">M_TC_002</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Functional</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Model</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Check if the model predicts the digit</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">2) Click on select button &#10;3) Select the input image</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Sample 1.png</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">The model should predict the number</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Working as expected</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">PASS</Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">Priyanka S  Varsha K   Swetha S</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">4) Check the results</Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s184"><Data ss:Type="String">M_TC_003</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Functional</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Model</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">Check if the model can handle complex  &#10;input image</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">1) Open the page 2) Click on select button 3) Select the input image &#10;4) Check the results</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Complex Sample.png</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">The model should predict the number in  &#10;the compex image</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">The model fails to identify the  digit since the model is not built  &#10;to handle such data</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">FAIL</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">BUG_M_001</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">Priyanka S  Varsha K   Swetha S</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">1) Open the page</Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s184"><Data ss:Type="String">RP_TC_001</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">UI</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Result Page</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Verify UI elements in the Result Page</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">2) Click on select button 3) Select the input image 4) Checkif all the UI elements are  &#10;displayed properly</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Sample 1.png</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">The Result page must be displayed  &#10;properly</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Working as expected</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">PASS</Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">Reshma S       Anu Juliet A  Devi  K</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">1) Open the page</Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s184"><Data ss:Type="String">RP_TC_002</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">UI</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Result Page</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">Check if the input image is displayed  &#10;properly</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">2) Click on select button 3) Select the input image &#10;4) Check if the input image are </Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Sample 1.png</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">The input image should be displayed  &#10;properly</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">The size of the imput image  &#10;exceeds the display container</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">FAIL</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">BUG_RP_001</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">Priyanka S  Varsha K   Swetha S</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">displayed</Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">1) Open the page</Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="33.75">
+    <Cell ss:StyleID="s184"><Data ss:Type="String">RP_TC_003</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">UI</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Result Page</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Check if the result is displayed properly</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">2) Click on select button &#10;3) Select the input image</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Sample 1.png</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">The result should be displayed properly</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Working as expected</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">PASS</Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">Reshma S      Anu Juliet A  Devi  K</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">4) Check if the result is displayed</Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">1) Open the page</Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s184"><Data ss:Type="String">RP_TC_004</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">UI</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Result Page</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">Check if the other predictions are  &#10;displayed properly</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">2) Click on select button 3) Select the input image 4) Check if all the other predictions are  &#10;displayed</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Sample 1.png</Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">The other predictions should be  &#10;displayed properly</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Working as expected</Data></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">PASS</Data></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s185"><Data ss:Type="String">Priyanka S  Varsha K   Swetha S</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+     <ActiveCol>6</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
